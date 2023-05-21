@@ -7,6 +7,9 @@ from langchain.llms import OpenAI
 from langchain.vectorstores.faiss import FAISS
 from pypdf import PdfReader
 import streamlit as st
+import os
+
+
 
 
 @st.cache
