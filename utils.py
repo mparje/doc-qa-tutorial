@@ -8,10 +8,7 @@ from langchain.vectorstores.faiss import FAISS
 from pypdf import PdfReader
 import streamlit as st
 import openai
-
-openai.api_key = os.getenv("OPENAI_API_KEY")
 import os
-import openai
 
 openai.api_key = os.getenv("OPENAI_API_KEY")
 
